@@ -38,9 +38,9 @@ select {
   /* Define 8 rows of equal height */
   grid-template-rows: 8;
 
-  row-gap: 0;
+  /* row-gap: 0;
 
-  column-gap: 0;
+  column-gap: 0; */
 }
 
 .pixel {
@@ -54,4 +54,14 @@ select {
     /* Add subtle outline on hover for better visibility */
     outline: black;
     transition: transform 0.2s ease-in-out; /* Smooth transform on hover */
+  }
+
+  .palette-display{
+    display: flex;
+    /* width: ; */
+  }
+
+  .palette-selection{
+    aspect-ratio: 1 / 1;
+    width: 8%
   }

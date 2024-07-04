@@ -8,7 +8,7 @@ function App(props) {
     }
 
     const paletteButtons=palette.map((colour)=> {
-    return (<button key={colour} 
+    return (<button key={colour} className="palette-selection"
         style={{backgroundColor: `#${colour}`}}/>
     )})
 
@@ -21,8 +21,8 @@ function App(props) {
                 {pixels}
             </div>
             
-            <h3>palette</h3>
-            <div className='paletteDisplay'>
+            <h3>Pick a Colour!</h3>
+            <div className='palette-display'>
                 {paletteButtons}
             </div>
         </div>
