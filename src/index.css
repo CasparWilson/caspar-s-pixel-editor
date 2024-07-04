@@ -48,7 +48,6 @@ select {
     aspect-ratio: 1 / 1;
     width: 12.5%; /* Set a default size, adjust with --button-size */
     padding: 0; /* Remove padding */
-    background: transparent; /* Make it transparent */
     border: solid; /* Remove border */
     cursor: pointer; /* Indicate interactivity */
     /* Add subtle outline on hover for better visibility */
